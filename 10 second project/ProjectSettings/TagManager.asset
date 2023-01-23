@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Walls
+  - Particle
+  - End
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
   - 
@@ -41,9 +44,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 3879994991
+    locked: 0
   - name: Maze
     uniqueID: 1153529579
     locked: 0
-  - name: Player
-    uniqueID: 3879994991
+  - name: Particle
+    uniqueID: 3498441151
+    locked: 0
+  - name: Walls
+    uniqueID: 4130690513
     locked: 0
